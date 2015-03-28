@@ -1,16 +1,25 @@
-int classP_1();		//将三个数从大到小排序
-int classP_2();		//在屏幕上显示10行星形倒金字塔
-int classP_3();		//冒泡排序算法，将数字从大到小输出
-int classP_4();		//计算1+2+3+...+n的和
-int classP_5();		//计算1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6 …… 1/n
-int classP_6();		//计算1! + 2! + 3! + 4! +……+ n!
-int classP_7();		//计算1! + 3! - 5! + 7! - 9! ……(2*n+1)! 
-int classP_8();		//求函数：sin(x)=x/1! - x的3次方/3! + x的5次方/5! -x的7次方/7! +…,最后一项精度不低于0.000001 
-int classP_9();		//在m个数中任取n个数，有多少种取法
-int classP_10();	//计算2*3/4*5*6 + 3*4/5*6*7 - 4*5/6*7*8 + 5*6/7*8*9 -.....最后一项精度不低于0.000001
-int classP_11();	//有一分数序列 1/2，2/3，3/5，5/8，8/13，13/21，…求出这个序列的前200 项之和 
-int classP_12();	//求圆周率PI : PI / 4 = 1 - 1 / 3+ 1 / 5 - 1 / 7 + .....
-int classP_13();	//输出 n 行金字塔
+int P2_16();		//prompt for a digit,then display the digit
+int P2_26();		//ask user "is it raining now?",then output "it is raining now." if the user input "Y" ,or output "it is not raining now." if the user input "N",or output "is it raining now?"
+int P2_27();		//ask user "what's your score of the exam(0~100)?",then rank the score.
+int P2_28();		//an easy Menu program
+int P2_29();		//find out prime numbers between 1 and 100
+int P2_31();		//precisely display time that user input 
+int P2_32();		//the same as homework_6();
+int P2_34();		//there are many red/yellow/blue/white/black balls in pocket.how many the counts if every time take out 3 different colors balls from the pocket
+int P2_35();		//the same as homework_11();
+int classP_1();		//the three numbers from big to small order
+int classP_2();		//display 10 lines of the inverted Pyramid
+int classP_3();		//bubble sort algorithm,figures from big to small order
+int homework_1();		//calculate 1+2+3...+n
+int homework_2();		//calculate 1 - 1/2 + 1/3 - 1/4 + 1/5 - 1/6 …… 1/n
+int homework_3();		//calculate 1! + 2! + 3! + 4! +……+ n!
+int homework_4();		//calculate 1! + 3! - 5! + 7! - 9! ……(2*n+1)!  
+int homework_5();		//calculate sin(x)=x/1! - pow(x,3)/3! + pow(x,5)/5! -pow(x,7)/7! +…,finally,the accuracy not less than 0.000001  
+int homework_6();		//take n numbers from m numbers,calculate counts of combination
+int homework_7();	//calculate 2*3/4*5*6 + 3*4/5*6*7 - 4*5/6*7*8 + 5*6/7*8*9 -.....finally,the accuracy not less than 0.000001
+int homework_8();	//calculate 1/2 + 2/3 + 3/5 + 5/8 + 8/13 + 13/21，…(200 items)
+int homework_9();	//calculate PI : PI / 4 = 1 - 1 / 3+ 1 / 5 - 1 / 7 + .....
+int homework_10();	//display n lines Pyramid
 					/*						*
 											**
 											***
@@ -20,7 +29,7 @@ int classP_13();	//输出 n 行金字塔
 											***
 											**
 											*						*/
-int classP_14();	//输出正/反九九乘法表
-int classP_15();	//在程序中定义一个变量，赋予1—100的某个数值，要求用户猜这个数字，比较两个数字的大小，把结果提示给用户。直到猜对为止。
-int classP_16();	//用选择排序法进行整型数组排序
+int homework_11();	//display positive and negative nine*nine multiplication table
+int homework_12();	//definite a constant (between 1 and 200)，let user guess the constant，compare two digits，then show the result to user until the user guess the right constant.
+int homework_13();	//select sort algorithm,figures from big to small order
 
