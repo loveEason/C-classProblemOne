@@ -33,3 +33,29 @@ int homework_11();	//display positive and negative nine*nine multiplication tabl
 int homework_12();	//definite a constant (between 1 and 200)£¬let user guess the constant£¬compare two digits£¬then show the result to user until the user guess the right constant.
 int homework_13();	//select sort algorithm,figures from big to small order
 
+int P3_7();		//input two integers,then return the first one integer divide the second integer if the second integer is not 0
+int P3_8();		//converting fahrenheit to celsius
+int P3_9();		//determine a number whether is a prime number or not
+int P3_10();	//seek the gratest common divisor and the least common multipl
+int P3_12();	//input n,then calculate 1+2+...+n
+int P3_14();	//calculate N order Legendre polynomial
+int P3_15();	//calculate x y square
+
+int calendar();	//input a year,then display the whole year calendar
+
+int E4_1();		//clock class
+int E4_2();		//3 situation about use clone structural function 
+int E4_3();		//calculate the price of building poor
+int E4_4();		//the combination of classes,Line class
+int E4_7();		//use stucture to stores students' informations
+int E4_8();		//use union to stores grade
+int E4_9();		//personal bank account 
+int E4_10();	//define a structure to store students' grade information
+
+int P4_8();		//define a class Dog
+int P4_9();		//define a  class Rectangle 
+int P4_10();	//define a class Person
+int P4_11();	//define a class Rectangle and calculate the area
+int P4_12();	//define a class DataType
+int P4_13();	//define a class Circle and calculate the area
+int P4_14();	//define a class Tree and output the age
